@@ -1,3 +1,54 @@
+@import url(https://fonts.googleapis.com/css?family=Signika+Negative:400,700);
+
+html {
+  background: url('https://assets.awwwards.com/awards/sites_of_the_day/2016/06/awwwards-sotd-TIMELIKES-1-.jpg') fixed;
+  background-size: 100%;
+}
+
+div {
+  overflow: hidden;
+}
+
+a {
+  color: #322bff;
+  text-decoration: underline;
+  transition: 500ms;
+}
+a:hover {
+  color: #26a1ff;
+}
+
+p {
+  padding: 0 5%;
+}
+
+img {
+  box-shadow: 0px 0px 4px #000;
+}
+
+#header {
+  background: rgba(255, 255, 255, .5);
+  padding: 1%;
+  overflow: hidden;
+  height: 55px;
+}
+#header img {
+  float: left;
+  box-shadow: none;
+}
+#header ul {
+  list-style: none;
+  float: left;
+  padding-left: 10px;
+  margin-top: 15px;
+}
+#header ul li {
+  float: left;
+  margin-left: 10px;
+  
+}
+
+
 html, body {
 	height: 100%;
 	width: 100%;
@@ -5,22 +56,17 @@ html, body {
 	padding: 0;
 	overflow: hidden;
 }
-
-
-
-
-
 #text-wrapper {
 	width: 100%;
 	height: 100px;
 	background: black;
 }
 #output {
-	width: 66%;
+	width: 86%;
 	height: 65px;
 	font-family: Menlo, "Lucida Sans", Monaco, monospace;
 	font-size: 36px;
-	background: #8860D0;
+	background: black;
 	color: white;
 	letter-spacing: 6.3px;
 	float: left;
@@ -29,31 +75,30 @@ html, body {
 	padding: 0 2%;
 }
 ::placeholder {
-	color: white;
+	color: #ddd;
 	letter-spacing: 0;
 	font-size: smaller;
 }
 #clear-canvas {
-	width: 30%;
+	width: 10%;
 	height: 100%;
 	float: right;
-	font-size: 150%;
-	background: #5AB9EA;
+	background: #999;
 	border: none;
 	color: #fff;
 	cursor: pointer;
 }
-@media (max-width: 1000px) {
+@media (max-width: 600px) {
 	#clear-canvas span {
-		transform: rotate(0deg);
-		display: block;
+		transform: rotate(90deg);
+		display: inline-block;
 	}
 }
 #clear-canvas:hover {
-	background: #112D32;
+	background: red;
 }
 #input-wrapper {
-	width:80%;
+	width: 90%;
 	height: 28px;
 	clear: left;
 	float: left;
@@ -103,5 +148,61 @@ label {
 
 
 
+@import url('https://fonts.googleapis.com/css?family=Roboto:700');
 
+footer {
+  margin:0px;
+  font-family:'Roboto';
+  text-align:center;
+}
 
+#container {
+  color:#999;
+  text-transform: uppercase;
+  font-size:150%;
+  font-weight:bold; 
+  padding :center;
+  text-align: center;
+  position:center;
+  width:100%;
+
+  display:block;
+}
+
+#flip {
+  height:50px;
+  overflow:hidden;
+}
+
+#flip > div > div {
+  color:#fff;
+  padding:4px 12px;
+  height:45px;
+  margin-bottom:45px;
+  display:inline-block;
+}
+
+#flip div:first-child {
+  animation: show 8s linear infinite;
+}
+
+#flip div div {
+  background:#42c58a;
+}
+#flip div:first-child div {
+  background:#4ec7f3;
+}
+#flip div:last-child div {
+  background:#DC143C;
+}
+
+@keyframes show {
+  0% {margin-top:-270px;}
+  5% {margin-top:-180px;}
+  33% {margin-top:-180px;}
+  38% {margin-top:-90px;}
+  66% {margin-top:-90px;}
+  71% {margin-top:0px;}
+  99.99% {margin-top:0px;}
+  100% {margin-top:-270px;}
+}
