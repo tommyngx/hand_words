@@ -20,7 +20,7 @@ class Handwriting {
 			backgroundColor: "#5680E9",
 			isDrawingMode: true
 		})
-		this.canvas.freeDrawingBrush.color = "white"
+		this.canvas.freeDrawingBrush.color = "#8860D0"
 		this.resetCanvas(true)
 		this.resizeCanvas()
 
