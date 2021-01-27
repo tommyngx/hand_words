@@ -157,44 +157,4 @@ footer {
   text-align:center;
 }
 
-#container {
-  color:#999;
-  text-transform: uppercase;
-  font-size:150%;
-  font-weight:bold; 
-  padding :center;
-  text-align: center;
-  position:center;
-  width:100%;
-
-  display:block;
-}
-
-#flip {
-  height:50px;
-  overflow:hidden;
-}
-
-#flip > div > div {
-  color:#fff;
-  padding:4px 12px;
-  height:45px;
-  margin-bottom:45px;
-  display:inline-block;
-}
-
-#flip div:first-child {
-  animation: show 8s linear infinite;
-}
-
-#flip div div {
-  background:#42c58a;
-}
-#flip div:first-child div {
-  background:#4ec7f3;
-}
-#flip div:last-child div {
-  background:#DC143C;
-}
-
 
