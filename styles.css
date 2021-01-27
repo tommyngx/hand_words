@@ -215,10 +215,3 @@ footer {
   99.99% {margin-top:0px;}
   100% {margin-top:-270px;}
 }
-
-p {
-  position:fixed;
-  width:100%;
-  font-size:12px;
-  color:#999;
-}
