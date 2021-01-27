@@ -17,10 +17,10 @@ class Handwriting {
 		this.outputEl = $("output")
 
 		this.canvas = new fabric.Canvas('handwriting', {
-			backgroundColor: "#5680E9",
+			backgroundColor: "white",
 			isDrawingMode: true
 		})
-		this.canvas.freeDrawingBrush.color = "#8860D0"
+		this.canvas.freeDrawingBrush.color = "black"
 		this.resetCanvas(true)
 		this.resizeCanvas()
 
