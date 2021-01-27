@@ -8,15 +8,15 @@ html, body {
 #text-wrapper {
 	width: 100%;
 	height: 100px;
-	background: #553D67;
+	background: #8860D0;
 }
 #output {
-	width: 86%;
+	width: 70%;
 	height: 65px;
 	font-family: Menlo, "Lucida Sans", Monaco, monospace;
 	font-size: 36px;
-	background: black;
-	color: white;
+	background: #8860D0;
+	color: whitesmoke;
 	letter-spacing: 6.3px;
 	float: left;
 	border: none;
@@ -24,7 +24,7 @@ html, body {
 	padding: 0 2%;
 }
 ::placeholder {
-	color: #ddd;
+	color: white;
 	letter-spacing: 0;
 	font-size: smaller;
 }
@@ -32,9 +32,9 @@ html, body {
 	width: 20%;
 	height: 100%;
 	float: right;
-	background: #41B3A3;
+	background: #5AB9EA;
 	border: none;
-	color: #85DCB;
+	color: whitesmoke;
 	cursor: pointer;
 }
 @media (max-width: 600px) {
@@ -44,7 +44,7 @@ html, body {
 	}
 }
 #clear-canvas:hover {
-	background: #C38D9E;
+	background: #112D32;
 }
 #input-wrapper {
 	width: 80%;
@@ -81,7 +81,7 @@ html, body {
 	position: absolute;
 	top: 0;
 	right: 0;
-  background: #E27D60;
+  background: #5680E9;
   padding: 10px;
   z-index: 1;
 }
@@ -91,6 +91,6 @@ label {
 .info {
   display: inline-block;
   width: 25px;
-  background: #E8A87C;
+  background: white;
   display: none;
 }
