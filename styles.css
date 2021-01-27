@@ -90,7 +90,7 @@ img {
 	color: white;
 	cursor: pointer;
 }
-@media (max-width: 600px) {
+@media (max-width: 1000px) {
 	#clear-canvas span {
 		transform: rotate(0deg);
 		display: block;
