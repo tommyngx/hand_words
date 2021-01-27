@@ -29,12 +29,12 @@ html, body {
 	font-size: smaller;
 }
 #clear-canvas {
-	width: 10%;
+	width: 20%;
 	height: 100%;
 	float: right;
-	background: #999;
+	background: #41B3A3;
 	border: none;
-	color: #fff;
+	color: #85DCB;
 	cursor: pointer;
 }
 @media (max-width: 600px) {
@@ -44,7 +44,7 @@ html, body {
 	}
 }
 #clear-canvas:hover {
-	background: red;
+	background: #C38D9E;
 }
 #input-wrapper {
 	width: 90%;
