@@ -50,7 +50,7 @@ class Handwriting {
 
 		this.canvas.setDimensions({
 			width: window.innerWidth,
-			height: window.innerHeight*0.63-28
+			height: window.innerHeight*0.9-28
 		})
 		this.canvas.calcOffset()
 		this.canvas.renderAll()
