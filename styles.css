@@ -47,7 +47,7 @@ html, body {
 	background: #C38D9E;
 }
 #input-wrapper {
-	width: 90%;
+	width: 80%;
 	height: 28px;
 	clear: left;
 	float: left;
@@ -81,7 +81,7 @@ html, body {
 	position: absolute;
 	top: 0;
 	right: 0;
-  background: #fff;
+  background: #E27D60;
   padding: 10px;
   z-index: 1;
 }
@@ -91,6 +91,6 @@ label {
 .info {
   display: inline-block;
   width: 25px;
-  background: #ffc;
+  background: #E8A87C;
   display: none;
 }
