@@ -36,11 +36,11 @@ html, body {
 #clear-canvas {
 	width: 30%;
 	height: 100%;
-	font-size: 150%;
 	float: right;
+	font-size: 150%;
 	background: #5AB9EA;
 	border: none;
-	color: white;
+	color: #fff;
 	cursor: pointer;
 }
 @media (max-width: 1000px) {
@@ -53,7 +53,7 @@ html, body {
 	background: #112D32;
 }
 #input-wrapper {
-	width: 80%;
+	width:80%;
 	height: 28px;
 	clear: left;
 	float: left;
@@ -87,7 +87,7 @@ html, body {
 	position: absolute;
 	top: 0;
 	right: 0;
-  background: #5680E9;
+  background: #fff;
   padding: 10px;
   z-index: 1;
 }
@@ -97,6 +97,11 @@ label {
 .info {
   display: inline-block;
   width: 25px;
-  background: white;
+  background: #ffc;
   display: none;
 }
+
+
+
+
+
