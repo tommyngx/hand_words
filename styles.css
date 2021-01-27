@@ -5,17 +5,22 @@ html, body {
 	padding: 0;
 	overflow: hidden;
 }
+
+
+
+
+
 #text-wrapper {
 	width: 100%;
 	height: 100px;
 	background: black;
 }
 #output {
-	width: 86%;
+	width: 66%;
 	height: 65px;
 	font-family: Menlo, "Lucida Sans", Monaco, monospace;
 	font-size: 36px;
-	background: black;
+	background: #8860D0;
 	color: white;
 	letter-spacing: 6.3px;
 	float: left;
@@ -24,30 +29,31 @@ html, body {
 	padding: 0 2%;
 }
 ::placeholder {
-	color: #ddd;
+	color: white;
 	letter-spacing: 0;
 	font-size: smaller;
 }
 #clear-canvas {
-	width: 10%;
+	width: 30%;
 	height: 100%;
+	font-size: 150%;
 	float: right;
-	background: #999;
+	background: #5AB9EA;
 	border: none;
-	color: #fff;
+	color: white;
 	cursor: pointer;
 }
-@media (max-width: 600px) {
+@media (max-width: 1000px) {
 	#clear-canvas span {
-		transform: rotate(90deg);
-		display: inline-block;
+		transform: rotate(0deg);
+		display: block;
 	}
 }
 #clear-canvas:hover {
-	background: red;
+	background: #112D32;
 }
 #input-wrapper {
-	width: 90%;
+	width: 80%;
 	height: 28px;
 	clear: left;
 	float: left;
@@ -81,7 +87,7 @@ html, body {
 	position: absolute;
 	top: 0;
 	right: 0;
-  background: #fff;
+  background: #5680E9;
   padding: 10px;
   z-index: 1;
 }
@@ -91,6 +97,6 @@ label {
 .info {
   display: inline-block;
   width: 25px;
-  background: #ffc;
+  background: white;
   display: none;
 }
