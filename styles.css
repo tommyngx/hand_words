@@ -38,10 +38,10 @@ html, body {
 	color: white;
 	cursor: pointer;
 }
-@media (max-width: 600px) {
+@media (max-width: 1000px) {
 	#clear-canvas span {
 		transform: rotate(90deg);
-		display: inline-block;
+		display: block;
 	}
 }
 #clear-canvas:hover {
