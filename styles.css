@@ -31,6 +31,7 @@ html, body {
 #clear-canvas {
 	width: 20%;
 	height: 100%;
+	font-size: 30px;
 	float: right;
 	background: #5AB9EA;
 	border: none;
