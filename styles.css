@@ -87,6 +87,7 @@ html, body {
 	float: right;
 	background: #A0D2EB;
 	border: none;
+	font-weight: bolder;
 	color: #494D5F;
 	cursor: pointer;
 }
