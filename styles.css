@@ -68,7 +68,7 @@ html, body {
 	height: 65px;
 	font-family: Menlo, "Lucida Sans", Monaco, monospace;
 	font-size: 36px;
-	background: black;
+	background: #8458B3;
 	color: white;
 	letter-spacing: 6.3px;
 	float: left;
@@ -85,9 +85,9 @@ html, body {
 	width: 10%;
 	height: 100%;
 	float: right;
-	background: #5AB9EA;
+	background: #A0D2EB;
 	border: none;
-	color: #fff;
+	color: #494D5F;
 	cursor: pointer;
 }
 @media (max-width: 600px) {
@@ -97,7 +97,8 @@ html, body {
 	}
 }
 #clear-canvas:hover {
-	background: #112D32;
+	background: #494D5f;
+	color: #A0D2EB;
 }
 #input-wrapper {
 	width: 90%;
@@ -134,7 +135,7 @@ html, body {
 	position: absolute;
 	top: 0;
 	right: 0;
-  background: #fff;
+  background: #D0BDF4;
   padding: 10px;
   z-index: 1;
 }
