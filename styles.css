@@ -1,8 +1,10 @@
 @import url(https://fonts.googleapis.com/css?family=Signika+Negative:400,700);
 
 html {
-  background: url('https://assets.awwwards.com/awards/sites_of_the_day/2016/06/awwwards-sotd-TIMELIKES-1-.jpg') fixed;
-  background-size: 100%;
+	background: rgb(0,226,255);
+	background: radial-gradient(circle, rgba(0,226,255,1) 50%, 
+	rgba(183,0,255,0.5403050108932461) 100%);
+  
 }
 
 div {
@@ -62,11 +64,11 @@ html, body {
 	background: black;
 }
 #output {
-	width: 76%;
+	width: 86%;
 	height: 65px;
 	font-family: Menlo, "Lucida Sans", Monaco, monospace;
 	font-size: 36px;
-	background: #8860D0;
+	background: black;
 	color: white;
 	letter-spacing: 6.3px;
 	float: left;
@@ -80,22 +82,22 @@ html, body {
 	font-size: smaller;
 }
 #clear-canvas {
-	width: 20%;
+	width: 10%;
 	height: 100%;
 	float: right;
-	background: #5AB9EA;
+	background: #999;
 	border: none;
 	color: #fff;
 	cursor: pointer;
 }
-@media (max-width: 900px) {
+@media (max-width: 600px) {
 	#clear-canvas span {
 		transform: rotate(0deg);
 		display: block;
 	}
 }
 #clear-canvas:hover {
-	background: #112D32;
+	background: red;
 }
 #input-wrapper {
 	width: 90%;
