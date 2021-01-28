@@ -33,6 +33,7 @@ img {
   padding: 1%;
   overflow: hidden;
   height: 55px;
+  font-family: 'Raleway', sans-serif;
 }
 #header img {
   float: left;
@@ -62,11 +63,12 @@ html, body {
 	width: 100%;
 	height: 100px;
 	background: black;
+	font-family: 'Raleway', sans-serif;
 }
 #output {
 	width: 76%;
 	height: 65px;
-	font-family: Menlo, "Lucida Sans", Monaco, monospace;
+	font-family: 'Raleway', sans-serif;
 	font-size: 36px;
 	background: #8458B3;
 	color: white;
@@ -152,61 +154,22 @@ label {
 
 
 
-@import url('https://fonts.googleapis.com/css?family=Roboto:700');
 
 footer {
-  margin:0px;
-  font-family:'Roboto';
-  text-align:center;
+  font-family: 'Raleway', sans-serif;
+  padding: 1em 1em;
+  font-size: 100%;
+  font-weight: bolder;
+  color: black
 }
 
-#container {
-  color:#999;
-  text-transform: uppercase;
-  font-size:100%;
-  font-weight:bold; 
-  padding :center;
-  text-align: center;
-  position:center;
-  width:100%;
-
-  display:block;
+h1,h2 {
+  font-weight: 100;
+  margin: 0.1em 0;
+}
+h1 { font-size: 2.0em; }
+h2 {
+  color: #888;
+  font-size: 2em;
 }
 
-#flip {
-  height:50px;
-  overflow:hidden;
-}
-
-#flip > div > div {
-  color:#fff;
-  padding:4px 12px;
-  height:45px;
-  margin-bottom:45px;
-  display:inline-block;
-}
-
-#flip div:first-child {
-  animation: show 8s linear infinite;
-}
-
-#flip div div {
-  background:#42c58a;
-}
-#flip div:first-child div {
-  background:#4ec7f3;
-}
-#flip div:last-child div {
-  background:#DC143C;
-}
-
-@keyframes show {
-  0% {margin-top:-270px;}
-  5% {margin-top:-180px;}
-  33% {margin-top:-180px;}
-  38% {margin-top:-90px;}
-  66% {margin-top:-90px;}
-  71% {margin-top:0px;}
-  99.99% {margin-top:0px;}
-  100% {margin-top:-270px;}
-}
