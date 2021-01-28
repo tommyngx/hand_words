@@ -1,4 +1,4 @@
-# Handwriting Project for learning
+# Handwriting Recognition Project for learning
 
 Special thanks to Mr. Johan Dettmar. Please come and find this awesome for details, he give clear instruction about how to do it.
 
