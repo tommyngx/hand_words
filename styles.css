@@ -85,7 +85,7 @@ html, body {
 	width: 10%;
 	height: 100%;
 	float: right;
-	background: #999;
+	background: #5AB9EA;
 	border: none;
 	color: #fff;
 	cursor: pointer;
@@ -97,7 +97,7 @@ html, body {
 	}
 }
 #clear-canvas:hover {
-	background: red;
+	background: #112D32;
 }
 #input-wrapper {
 	width: 90%;
