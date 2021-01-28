@@ -34,6 +34,7 @@ img {
   overflow: hidden;
   height: 55px;
   font-family: 'Raleway', sans-serif;
+  font-size: 85%;
 }
 #header img {
   float: left;
