@@ -9,7 +9,8 @@ Let's have fun at : https://tommy-ngx.github.io/hand_words/index.html
 Model is buiding in Keras using some kernels, adam for optimizers, loss based on categorical_crossentropy.
 All layers are below:
 
-![](https://raw.githubusercontent.com/Tommy-Ngx/hand_words/main/model/tommy-layers-EMNIST.png)
-
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Tommy-Ngx/hand_words/main/model/tommy-layers-EMNIST.png" width="520" alt="accessibility text">
+</p>
 
 Cheers,
