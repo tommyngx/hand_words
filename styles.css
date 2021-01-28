@@ -64,7 +64,7 @@ html, body {
 	background: black;
 }
 #output {
-	width: 86%;
+	width: 71%;
 	height: 65px;
 	font-family: Menlo, "Lucida Sans", Monaco, monospace;
 	font-size: 36px;
@@ -82,7 +82,7 @@ html, body {
 	font-size: smaller;
 }
 #clear-canvas {
-	width: 10%;
+	width: 25%;
 	height: 100%;
 	float: right;
 	background: #A0D2EB;
