@@ -36,7 +36,7 @@ img {
   font-family: 'Raleway', sans-serif;
   font-size: 85%;
 }
-@media screen and (max-width: 520px) {
+@media screen and (max-width: 320px) {
   #header {
   font-size: 75%;
 }
